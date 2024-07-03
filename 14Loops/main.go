@@ -15,4 +15,15 @@ func main() {
 	// 	fmt.Println(days[i])
 	// }
 
+	rougheValue := 1
+	for rougheValue < 10 {
+
+		if rougheValue == 5 {
+			rougheValue++
+			continue
+		}
+
+		fmt.Println("Value is ", rougheValue)
+		rougheValue++
+	}
 }
